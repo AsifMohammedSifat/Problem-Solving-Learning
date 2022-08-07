@@ -1,3 +1,11 @@
+/**
+    Input: asif mohammed sifat
+    Output: Asif
+            Mohammed
+            Sifat
+
+**/
+
 #include<stdio.h>
 #include<string.h>
 int main(){
