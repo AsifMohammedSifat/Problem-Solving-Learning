@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print(vector<int> data){
+void print(vector<int> data)
+{
     cout << "Total Elements: " << data.size() << "\n";
     for (int datam:data)
         cout << datam << " ";
@@ -17,14 +18,15 @@ int main()
 
     ///vector <type> name (elements);
 
-//    vector<int> data (5); /// int data[5];
-//    print(data);
+//  vector<int> data (5); /// int data[5];
+//  print(data); //output: 0 0 0 0 0
 
-//    vector<int> data;
-//    print(data);
+//  vector<int> data;
+//  print(data); //total element :0
 
-//    vector<int> data(5, 2);
-//    print(data);
+    // vector<int> data(5, 2);
+    // print(data); /*Total Elements: 5//
+    // 2 2 2 2 2*       //
 
 //    vector<int> data({1, 2, 3, 4, 5}); /// int data[] = {1, 2, 3, 4, 5}
 //    print(data);
@@ -46,14 +48,15 @@ int main()
 
 
 //    vector <int> data = {1,2,3};
-//    /// data.begin()
-//    /// data.end()
-//
+    ///uses of data.begin();
+    ///uses of data.end();
+
 ////    data.insert( data.begin() , 7);
-////    data.insert( data.begin() + 2, 7);
+//   data.insert( data.begin() + 2, 7);
+//   print(data); //1 2 7 3
 //
-////    data.insert(data.end()-1, 7);
-//
+//   data.insert(data.end()-1, 7);
+//     print(data); // 1 2 7 3
 ////    data.insert(data.begin(), 2, 7);
 //    data.insert(data.begin() + 1, 2, 7);
 //
@@ -61,10 +64,10 @@ int main()
 
     /// read
 
-//    vector <int> data = {3, 2, 1, 6, 4, 2};
-//    cout << data[2] << "\n";
-//    cout << data.front() << "\n";
-//    cout << data.back() << "\n";
+ /*   vector <int> data = {3, 2, 1, 6, 4, 2};
+    cout << data[2] << "\n";     // 1
+    cout << data.front() << "\n";// 3
+    cout << data.back() << "\n"; // 2 */
 
 //    vector <int> data = {3, 2, 1, 6, 4, 2};
 //    for (int d:data){
