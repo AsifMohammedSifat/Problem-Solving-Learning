@@ -4,7 +4,8 @@
 
 void seive(int n){
     int i,j;
-    int arr[100]={0};
+   // int arr[100]={0};
+    memset(arr,0,sizeof(arr)); 
    /** for(i=0;i<n;i++){
         arr[i]=0;
     }**/
